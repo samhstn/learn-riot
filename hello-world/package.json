@@ -1,0 +1,15 @@
+{
+  "name": "my-first-riot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "node_modules/.bin/riot js tags"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "riot": "^2.6.1"
+  }
+}
