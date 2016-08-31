@@ -1,0 +1,14 @@
+// inspired by https://github.com/txchen/feplay/blob/gh-pages/riot_webpack/package.json
+{
+  "extends": "airbnb/base",
+  "plugins": ["riot"],
+  "rules" : {
+    "semi": [2, "never"],
+    "no-param-reassign": [2, {"props": false}],
+    "no-unused-vars": [2, {"args": "after-used", "argsIgnorePattern": "^_"}],
+  },
+  "globals": {
+    "riot": true,
+    "opts": true,
+  },
+}
