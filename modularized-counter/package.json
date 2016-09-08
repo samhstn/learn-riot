@@ -1,0 +1,16 @@
+{
+  "name": "counter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "node_modules/.bin/riot js tags",
+    "watch": "nodemon -e tag,html -x 'node_modules/.bin/riot js tags'"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "riot": "^2.6.1"
+  }
+}

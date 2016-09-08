@@ -1,0 +1,19 @@
+4,6d3
+< ./node_modules/.bin/riot
+< ./node_modules/.bin/rollup
+< ./node_modules/.bin/shjs
+159,170d155
+< ./node_modules/fsevents/node_modules/.bin/har-validator
+< ./node_modules/fsevents/node_modules/.bin/mkdirp
+< ./node_modules/fsevents/node_modules/.bin/node-pre-gyp
+< ./node_modules/fsevents/node_modules/.bin/nopt
+< ./node_modules/fsevents/node_modules/.bin/rc
+< ./node_modules/fsevents/node_modules/.bin/rimraf
+< ./node_modules/fsevents/node_modules/.bin/semver
+< ./node_modules/fsevents/node_modules/.bin/sshpk-conv
+< ./node_modules/fsevents/node_modules/.bin/sshpk-sign
+< ./node_modules/fsevents/node_modules/.bin/sshpk-verify
+< ./node_modules/fsevents/node_modules/.bin/strip-json-comments
+< ./node_modules/fsevents/node_modules/.bin/uuid
+1601d1585
+< ./node_modules/riot/node_modules/.bin/riot
