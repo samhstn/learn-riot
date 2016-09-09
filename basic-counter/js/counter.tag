@@ -8,14 +8,16 @@
 
   <script>
 
-  this.opts.count = this.opts.count || 0;
+  var self = this;
+
+  self.opts.count = self.opts.count || 0;
 
   increment () {
-    this.opts.count++;
+    self.opts.count++;
   }
 
   decrement () {
-    this.opts.count--;
+    self.opts.count--;
   }
 
   </script>
