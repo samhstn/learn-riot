@@ -8,25 +8,19 @@
 
   <script>
 
-  var self = this;
+    var self = this;
 
-  console.log('count', self);
+    self.opts.count = counter.getCount();
 
-  self.opts.count = counter.getCount();
+    increment () {
+      self.opts.count = counter.increment();
+      self.update();
+    }
 
-  getCount () {
-    return counter.getCount();
-  }
-
-  increment () {
-    self.opts.count = counter.increment();
-    self.update();
-  }
-
-  decrement () {
-    self.opts.count = counter.decrement();
-    self.update();
-  }
+    decrement () {
+      self.opts.count = counter.decrement();
+      self.update();
+    }
 
   </script>
 </counter>

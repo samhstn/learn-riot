@@ -8,10 +8,10 @@
       return count;
     },
     increment: function () {
-      return count ++;
+      return ++count;
     },
     decrement: function () {
-      return count--;
+      return --count;
     }
   };
 })(window);
