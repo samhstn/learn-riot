@@ -2,7 +2,9 @@
 
 <button onclick={increment}>increment</button>
 
-  <div id='count'></div>
+<h1>Uncompiled count: {opts.count}</h1>
+
+<div id='count'></div>
 
   <script>
 
