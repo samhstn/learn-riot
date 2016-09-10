@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "compile": "node_modules/.bin/riot views/ app.js"
   },
   "keywords": [],
   "author": "",
