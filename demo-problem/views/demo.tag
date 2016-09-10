@@ -4,12 +4,11 @@
 
 <h1>Uncompiled count: {opts.count}</h1>
 
-<div id='count'></div>
+<count count={opts.count}></count>
 
   <script>
 
     var self = this;
-
     self.opts.count = self.opts.count || 0;
 
     increment () {
@@ -17,12 +16,6 @@
       console.log('count: ', self.opts.count);
       self.update();
     }
-
-    riot.compile('count.html', function () {
-      riot.mount('div#count', 'count', {
-        count: self.opts.count
-      })[0];      
-    });
 
   </script>
 </demo>
