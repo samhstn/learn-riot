@@ -1,0 +1,16 @@
+{
+  "name": "componentized-counter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "startmon": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "riot": "^2.6.1"
+  }
+}
