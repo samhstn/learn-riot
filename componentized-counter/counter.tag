@@ -10,16 +10,18 @@
 
     self.opts.count = counter.getCount();
 
-    increment () {
-      self.opts.count = counter.increment();
+    crement (func) {
+      self.opts.count = func();
       console.log('s: ', self.opts.count);
       self.update();
     }
 
+    increment () {
+      crement(counter.increment);
+    }
+
     decrement () {
-      self.opts.count = counter.decrement();
-      console.log('s: ', self.opts.count);
-      self.update();
+      crement(counter.decrement);
     }
 
     riot.compile('tags/heading.html', function () {
