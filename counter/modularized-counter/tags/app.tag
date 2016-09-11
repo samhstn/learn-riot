@@ -1,11 +1,14 @@
 <app>
 
-<rement rement={'dec'} handleclick={decrement}></rement>
-<rement rement={'inc'} handleclick={increment}></rement>
+<rement rement={dec} handleclick={decrement}></rement>
+<rement rement={inc} handleclick={increment}></rement>
 <count count={count}></count>
 
 <script>
   var self = this;
+
+  self.dec = 'dec'
+  self.inc = 'inc'
 
   self.count = self.count || 0;
 
