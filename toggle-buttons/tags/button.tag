@@ -1,6 +1,6 @@
 <button-list-item>
 
-  <button onclick={toggle} class={opts.red ? 'red' : 'blue'}>{opts.index + 1}</button>
+  <button onclick={toggle} class={red: opts.red}>{opts.index + 1}</button>
 
 <style scoped>
 
@@ -10,14 +10,11 @@
     height: 50px;
     width: 50px;
     font-size: 2em;
+    background-color: blue;
   }
 
   .red {
     background-color: red;
-  }
-
-  .blue {
-    background-color: blue;
   }
 
 </style>
