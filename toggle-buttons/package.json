@@ -1,0 +1,16 @@
+{
+  "name": "buttons",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "node_modules/.bin/riot tags/ app.js",
+    "watch": "nodemon -e tag,html -x 'node_modules/.bin/riot tags/ app.js'"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "riot": "^2.6.1"
+  }
+}
