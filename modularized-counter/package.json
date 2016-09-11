@@ -1,11 +1,13 @@
 {
-  "name": "counter",
+  "name": "modularized-counter",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "node_modules/.bin/riot js tags",
-    "watch": "nodemon -e tag,html -x 'node_modules/.bin/riot js tags'"
+    "start": "node server.js",
+    "startmon": "nodemon server.js",
+    "build": "node_modules/.bin/riot tags/ app.js",
+    "watch": "nodemon -e tag,js,html -x 'node_modules/.bin/riot tags/ app.js'"
   },
   "keywords": [],
   "author": "",
