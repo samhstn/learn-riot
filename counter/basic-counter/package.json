@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "node_modules/.bin/riot js tags",
-    "watch": "nodemon -e tag,html -x 'node_modules/.bin/riot js tags'"
+    "build": "node_modules/.bin/riot src bundle",
+    "watch": "nodemon -e tag,html -x 'node_modules/.bin/riot src bundle'"
   },
   "keywords": [],
   "author": "",
