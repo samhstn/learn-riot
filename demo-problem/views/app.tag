@@ -1,4 +1,4 @@
-<demo>
+<app>
 
 <button onclick={increment}>increment</button>
 
@@ -18,4 +18,4 @@
     }
 
   </script>
-</demo>
+</app>
